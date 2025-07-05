@@ -1,0 +1,83 @@
+/* Reset básico */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+    font-family: "Roboto", sans-serif; /*A primeira fote é a desejada, as demais são outras opções caso o dispositivo não as tenha e o sans-serif é em último caso se o dispositivo não tiver nenhuma ele coloca qualquer uma que não tenha o serif que são aquelas "perninhas" que tem no Times New Romam, por exemplo*/
+    background-color: #141414;
+    color: #fbfbfb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /*Serve para dizer ao navegador que a tela pode crescer, mas nunca ficar menor que esse tamanho, que seria a tela do computador*/
+}
+
+/* Conteúdo principal */
+main {
+    background-color: #1f1f1f;
+    padding: 2rem; /*Nesse caso o rem é melhor utilizado que o px, pois não é fixo e permite que a página se adeque dependendo do tamanho da página*/
+    border-radius: 16px;
+    text-align: center;
+    max-width: 400px;
+    width: 90%;
+}
+
+/* Imagem de perfil */
+.imagem-perfil{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%; /*Arredonda as bordas*/
+    object-fit: cover; /*Essa propriedade faz a imagem preencher todo o espaço sem deformar*/ 
+    margin-bottom: 1rem; /*Ela adiciona um espaço embaixo de um elemento.*/  
+}
+/* Título */
+.nome {
+    font-size: 1.8rem; /*Define o tamanho do texto*/
+    font-weight: 400; /*serve para deixar o texto em negrito ou mais fino, dependendo do valor inserido*/
+    margin-bottom: 0.5rem;
+}
+
+/* Localização */ 
+.localizacao {
+    color: #c3ed40;
+    font-size: 0.95rem;
+    margin-bottom: 1.5rem;
+}
+    
+/* Descrição */
+.descricao {
+    color: #cacaca;
+    font-size: 0.95rem;
+    font-weight: 350;
+    margin-bottom: 1rem;
+}
+
+/* Seção de links */
+.links-sociais {
+    display: flex; /*Alinha os itens*/
+    flex-direction: column; /*deixa os itens em coluna*/
+    align-items: center; /*Os itens centralizados*/
+    gap: 0.8rem; /*serve para criar espaço entre os itens dentro de um container com display: flex ou display: grid*/
+}
+
+/* Botões */
+.botao {
+    width: 20rem; /*Propriedade que define a largura do elemento*/
+    background-color: #333333;
+    color: #cacaca;
+    text-decoration: none; /*Remove a linha embaixo do texto quando ele é um link*/
+    padding: 0.8rem; /*Descola o texto das bordas de igual forma*/
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    font-weight: 500;
+    box-sizing: ;
+}
+
+.botao:hover {
+    background-color: #c3ed40;
+    color: #141414;
+}
