@@ -7,7 +7,7 @@ O objetivo foi criar uma página de links sociais responsiva, acessível e com e
 
 ## 📸 Captura de tela
 
-![Visual do projeto](./img/img-perfil-de-links-sociais.png)
+![Visual do projeto](./src/img/img-perfil-de-links-sociais.png)
 
 ---
 
