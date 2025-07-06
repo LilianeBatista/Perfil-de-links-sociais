@@ -1,4 +1,4 @@
-/* Reset básico */
+    /* Reset básico */
 *{
   margin: 0;
   padding: 0;
@@ -78,6 +78,11 @@ main {
 }
 
 .botao:hover {
+    background-color: #c3ed40;
+    color: #141414;
+}
+
+.botao:focus {
     background-color: #c3ed40;
     color: #141414;
 }
